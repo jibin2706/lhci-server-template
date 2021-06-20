@@ -1,0 +1,16 @@
+{
+  "name": "lhci-server-template",
+  "version": "1.0.0",
+  "description": "Lighthouse CI server template",
+  "author": "Jibin Thomas",
+  "license": "MIT",
+  "scripts": {
+    "start": "lhci server",
+    "wizard": "lhci wizard"
+  },
+  "dependencies": {
+    "@lhci/cli": "^0.8.0",
+    "@lhci/server": "^0.8.0",
+    "sqlite3": "^5.0.2"
+  }
+}
